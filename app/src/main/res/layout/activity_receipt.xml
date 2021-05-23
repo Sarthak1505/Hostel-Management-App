@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hostelmanagment.student.activity.receiptActivity">
+
+    <Button
+        android:id="@+id/PDF"
+        android:layout_width="218dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="32dp"
+        android:background="@color/teal_700"
+        android:onClick="Generate"
+        android:text="DOWNLOAD"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/recRoom"
+        android:layout_width="248dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="57dp"
+        android:text="ROOM"
+        android:textColor="#ff7f50"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/recYear"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/recEnroll" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="32dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginEnd="264dp"
+        android:layout_marginBottom="436dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/ic_baseline_edit_24" />
+
+    <TextView
+        android:id="@+id/recEnroll"
+        android:layout_width="248dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="512dp"
+        android:text="ENROLL"
+        android:textColor="#ff7f50"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/recPhn" />
+
+    <TextView
+        android:id="@+id/recPhn"
+        android:layout_width="248dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="550dp"
+        android:text="PHONENO"
+        android:textColor="#ff7f50"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/recName" />
+
+    <TextView
+        android:id="@+id/recName"
+        android:layout_width="248dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="593dp"
+        android:text="NAME"
+        android:textColor="#ff7f50"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="124dp"
+        android:layout_height="153dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="261dp"
+        android:layout_marginBottom="467dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="142dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="680dp"
+        android:text="RECEIPT"
+        android:textAlignment="center"
+        android:textColor="#191970"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/recYear"
+        android:layout_width="363dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="382dp"
+        android:text="TextView"
+        android:textColor="#ff7f50"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/recAmount"
+        android:layout_width="363dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="184dp"
+        android:text="TextView"
+        android:textColor="#ff7f50"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recRoomType" />
+
+    <TextView
+        android:id="@+id/recMess"
+        android:layout_width="363dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="332dp"
+        android:text="TextView"
+        android:textColor="#ff7f50"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recYear" />
+
+    <TextView
+        android:id="@+id/recRoomType"
+        android:layout_width="363dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="21dp"
+        android:text="TextView"
+        android:textColor="#ff7f50"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recMess"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="100dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="28dp"
+        android:text="PAID"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.418"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recAmount"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="47dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="108dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recAmount"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/geentick" />
+</androidx.constraintlayout.widget.ConstraintLayout>

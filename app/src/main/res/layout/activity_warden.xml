@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hostelmanagment.admin.warden.wardenActivity">
+
+    <Button
+        android:id="@+id/notify"
+        android:layout_width="179dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="221dp"
+        android:layout_marginTop="174dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="518dp"
+        android:background="@color/teal_700"
+        android:onClick="notify"
+        android:text="NOTIFY"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/attendaceButton"
+        android:layout_width="179dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="221dp"
+        android:layout_marginTop="413dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="279dp"
+        android:background="@color/teal_700"
+        android:onClick="viewAttendance"
+        android:text="ATTENDANCE"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/messageStudent"
+        android:layout_width="179dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="217dp"
+        android:layout_marginBottom="280dp"
+        android:background="@color/teal_700"
+        android:onClick="messageStudent"
+        android:text="MESSAGES"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/studetnProfile"
+        android:layout_width="179dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="174dp"
+
+        android:layout_marginEnd="217dp"
+        android:layout_marginBottom="518dp"
+        android:background="@color/teal_700"
+        android:onClick="viewProfile"
+        android:text="VIEW PROFILE"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="131dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="292dp"
+        android:layout_marginEnd="240dp"
+        android:layout_marginBottom="1dp"
+        android:onClick="messageStudent"
+        app:layout_constraintBottom_toTopOf="@+id/messageStudent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mesaage" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="117dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="254dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="40dp"
+        android:onClick="notify"
+        app:layout_constraintBottom_toTopOf="@+id/notify"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/notify" />
+
+    <Button
+        android:id="@+id/removeStudent"
+        android:layout_width="179sp"
+        android:layout_height="39dp"
+        android:layout_marginStart="116dp"
+
+        android:layout_marginTop="639dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="53dp"
+        android:background="@color/teal_700"
+        android:onClick="remove"
+        android:text="REMOVE STUDENT"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="151dp"
+        android:layout_height="138dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="93dp"
+        android:onClick="remove"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/studentremove" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="135dp"
+        android:layout_height="118dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="236dp"
+        android:layout_marginBottom="557dp"
+        android:onClick="viewProfile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/hostellist" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="121dp"
+        android:layout_height="111dp"
+        android:layout_marginStart="257dp"
+        android:layout_marginTop="301dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="1dp"
+        android:onClick="viewAttendance"
+        app:layout_constraintBottom_toTopOf="@+id/attendaceButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/attendance" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="220dp">
+
+    <TextView
+        android:id="@+id/room_no"
+        android:layout_width="48dp"
+        android:layout_height="44dp"
+android:layout_marginTop="10dp"
+        android:textColor="#191970" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="126dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="70dp"
+        app:srcCompat="@drawable/adapterroom" />
+
+    <TextView
+        android:id="@+id/vacancy"
+        android:layout_width="200dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="130dp"
+
+        android:textAlignment="center"
+        android:textColor="#ff7f50" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="170dp"
+        android:background="@color/teal_700"
+        android:text="Book"
+        android:textColor="@color/white" />
+</androidx.cardview.widget.CardView>
